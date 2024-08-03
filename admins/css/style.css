@@ -1,0 +1,97 @@
+
+/* Login */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container .login-button,
+.container .back-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.container .login-button:hover,
+.container .back-button:hover {
+  background-color: #0069d9;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0069d9;
+}
+
+/*Info Sekolah*/
+#informasi-sekolah {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.information-list .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.information-list .label {
+  font-weight: bold;
+  width: 200px;
+  text-align: left;
+}
+
+.information-list .value {
+  flex-grow: 1;
+  text-align: center;
+}
